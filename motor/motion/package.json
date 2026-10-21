@@ -1,0 +1,7 @@
+{
+  "name": "estudio-agentico-motion",
+  "private": true,
+  "description": "Animações opcionais (Remotion) na identidade do brand.json",
+  "scripts": { "render": "remotion render src/index.ts" },
+  "dependencies": { "remotion": "^4", "@remotion/cli": "^4", "@remotion/google-fonts": "^4", "react": "^18", "react-dom": "^18" }
+}

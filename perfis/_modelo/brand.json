@@ -1,0 +1,8 @@
+{
+  "nome": "Exemplo (troque pelos dados da sua marca)",
+  "cores": { "bg": "#FFFFFF", "surface": "#F3F5F7", "surface2": "#E8F3F1", "border": "#D5DCE2", "accent": "#0F8B7D", "accentSoft": "#3BA99C", "secondary": "#4A5B6C", "text": "#1B2430", "text2": "#4A5560", "muted": "#8A96A3" },
+  "fonte": "Arial",
+  "rodape": "SUA MARCA · SEU TEMA",
+  "fotos": { "retrato": null, "redonda": null, "fundo": null },
+  "contato": null
+}

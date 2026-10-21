@@ -1,0 +1,4 @@
+node_modules/
+__pycache__/
+*.ids.json
+motor/motion/out/

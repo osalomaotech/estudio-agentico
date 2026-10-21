@@ -1,0 +1,11 @@
+{
+  "name": "estudio-agentico-motor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motor de renderização do Estúdio Agêntico: slides.json + brand.json -> .pptx",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5"
+  }
+}

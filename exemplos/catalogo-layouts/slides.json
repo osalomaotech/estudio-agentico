@@ -1,0 +1,301 @@
+{
+ "meta": {
+  "titulo": "Catálogo de layouts do Estúdio Agêntico",
+  "autor": "Estúdio Agêntico",
+  "brand": "../../perfis/_modelo/brand.json",
+  "arquivo": "catalogo_layouts"
+ },
+ "slides": [
+  {
+   "id": "S01",
+   "layout": "capa",
+   "rotulo": "Layout: capa",
+   "titulo": "Como reduzir retrabalho no **atendimento**",
+   "subtitulo": "Exemplo fictício",
+   "notas": "Bom dia a todos. Hoje eu quero falar de **retrabalho**.\n\n(corta na versão curta)\nEste parágrafo só aparece na versão cheia.",
+   "para": "Diretoria de Operações (exemplo)"
+  },
+  {
+   "id": "S02",
+   "layout": "frase",
+   "texto": "Se o seu time parasse de refazer tarefas amanhã, quanto tempo **sobraria**?",
+   "segundosSemFala": 5,
+   "notas": "Pensa nisso com calma.\n\n(pausa)\n\nNão precisa responder agora."
+  },
+  {
+   "id": "S03",
+   "layout": "tese",
+   "texto": "Retrabalho não é falta de esforço.\n**É falta de desenho.**",
+   "notas": "Essa é a ideia central."
+  },
+  {
+   "id": "S04",
+   "layout": "case-evidencia",
+   "rotulo": "Layout: case-evidencia",
+   "titulo": "Um caso com **fonte** na tela",
+   "imagem": "imagens/fonte_exemplo.png",
+   "texto": "Recorte real da fonte, com crédito no rodapé.",
+   "fonte": "Veículo fictício, 01/01/2026",
+   "notas": "Aqui entra o caso."
+  },
+  {
+   "id": "S05",
+   "layout": "stat",
+   "rotulo": "Layout: stat",
+   "numeros": [
+    {
+     "valor": "37%",
+     "legenda": "do tempo gasto em retrabalho (número fictício)"
+    },
+    {
+     "valor": "2x",
+     "legenda": "mais erros em tarefas refeitas (fictício)"
+    }
+   ],
+   "texto": "Em comum: o problema está no fluxo, não nas pessoas.",
+   "fonte": "Exemplo fictício",
+   "notas": "Dois números."
+  },
+  {
+   "id": "S06",
+   "layout": "contraste",
+   "rotulo": "Layout: contraste",
+   "lados": [
+    {
+     "rotulo": "Antes",
+     "titulo": "Cada um faz do seu jeito.",
+     "texto": "Sem critério escrito."
+    },
+    {
+     "rotulo": "Depois",
+     "titulo": "Um critério para todos.",
+     "texto": "Exceções com dono."
+    }
+   ],
+   "notas": "O contraste."
+  },
+  {
+   "id": "S07",
+   "layout": "secao",
+   "numero": 1,
+   "rotulo": "Layout: secao",
+   "nome": "Entrada",
+   "linha": "Onde o pedido chega incompleto",
+   "destaque": "4 em cada 10 pedidos voltam",
+   "fonte": "Exemplo fictício",
+   "notas": "Primeira seção."
+  },
+  {
+   "id": "S08",
+   "layout": "afirmacao",
+   "rotulo": "Layout: afirmacao",
+   "texto": "Pedido incompleto não se corrige no fim. Se corrige na **entrada**.",
+   "cortavel": true,
+   "notas": "Slide cortável."
+  },
+  {
+   "id": "S09",
+   "layout": "cards-grid",
+   "rotulo": "Layout: cards-grid",
+   "itens": [
+    "Critério escrito|Todo mundo decide igual",
+    "Dono da exceção|Alguém responde",
+    "Checklist na entrada|Erro barrado cedo",
+    "Revisão por amostra|Sem fila",
+    "Indicador semanal|Ver a tendência",
+    "Retro mensal|Ajustar o desenho"
+   ],
+   "destaque": 2,
+   "notas": "Seis práticas."
+  },
+  {
+   "id": "S10",
+   "layout": "fluxo",
+   "rotulo": "Layout: fluxo",
+   "titulo": "Do pedido à **entrega**",
+   "itens": [
+    "Pedido",
+    "Triagem",
+    "Execução",
+    "Revisão",
+    "Entrega"
+   ],
+   "destaque": 1,
+   "texto": "A triagem é onde o retrabalho nasce.",
+   "notas": "O fluxo."
+  },
+  {
+   "id": "S11",
+   "layout": "tabela",
+   "rotulo": "Layout: tabela",
+   "linhas": [
+    [
+     "Dimensão",
+     "Hoje",
+     "Proposto"
+    ],
+    [
+     "Entrada",
+     "Formulário livre",
+     "Campos obrigatórios"
+    ],
+    [
+     "Exceções",
+     "Resolvidas no improviso",
+     "Regra e dono"
+    ],
+    [
+     "Revisão",
+     "100% dos casos",
+     "Amostra + indicador"
+    ]
+   ],
+   "notas": "A tabela."
+  },
+  {
+   "id": "S12",
+   "layout": "item",
+   "rotulo": "Layout: item · Técnica 1 de 3",
+   "numero": 1,
+   "titulo": "Checklist na entrada",
+   "texto": "Nada entra sem os campos mínimos.",
+   "notas": "A primeira técnica."
+  },
+  {
+   "id": "S13",
+   "layout": "matriz-2x2",
+   "rotulo": "Layout: matriz-2x2",
+   "titulo": "Impacto x **frequência**",
+   "texto": "Comece pelo quadrante de alto impacto e alta frequência.",
+   "quadrantes": [
+    {
+     "titulo": "Ignorar por ora",
+     "legenda": "baixo impacto · rara"
+    },
+    {
+     "titulo": "Padronizar",
+     "legenda": "baixo impacto · frequente"
+    },
+    {
+     "titulo": "Plano de contingência",
+     "legenda": "alto impacto · rara"
+    },
+    {
+     "titulo": "Atacar primeiro",
+     "legenda": "alto impacto · frequente",
+     "exemplo": "Pedido sem anexo"
+    }
+   ],
+   "eixo": "RARA  →  FREQUENTE",
+   "notas": "A matriz."
+  },
+  {
+   "id": "S14",
+   "layout": "linha-do-tempo",
+   "rotulo": "Layout: linha-do-tempo",
+   "titulo": "Nome do autor",
+   "itens": [
+    [
+     "2018",
+     "Primeiro marco"
+    ],
+    [
+     "2021",
+     "Segundo marco"
+    ],
+    [
+     "2024",
+     "Marco atual"
+    ]
+   ],
+   "notas": "A trajetória."
+  },
+  {
+   "id": "S15",
+   "layout": "autoridade",
+   "rotulo": "Layout: autoridade",
+   "numeros": [
+    {
+     "valor": "10+",
+     "legenda": "anos de experiência"
+    },
+    {
+     "valor": "200",
+     "legenda": "projetos"
+    },
+    {
+     "valor": "R$ 5 mi",
+     "legenda": "economizados"
+    },
+    {
+     "valor": "30",
+     "legenda": "clientes"
+    },
+    {
+     "valor": "4,9",
+     "legenda": "nota média (fictícia)"
+    }
+   ],
+   "notas": "Credenciais (fictícias).",
+   "fundo": false
+  },
+  {
+   "id": "S16b",
+   "layout": "escopo",
+   "rotulo": "Layout: escopo",
+   "titulo": "O que entra e o que **fica fora**",
+   "incluido": [
+    "Mapeamento do processo",
+    "Medição de tempo e erros",
+    "Plano priorizado"
+   ],
+   "fora": [
+    "Implantação de sistemas",
+    "Treinamento de equipes"
+   ],
+   "notas": "O escopo."
+  },
+  {
+   "id": "S16",
+   "layout": "investimento",
+   "rotulo": "Layout: investimento",
+   "titulo": "Duas formas de **começar**",
+   "opcoes": [
+    {
+     "nome": "Diagnóstico",
+     "valor": "R$ 0.000",
+     "inclui": [
+      "2 semanas",
+      "Mapa do processo",
+      "Plano priorizado"
+     ]
+    },
+    {
+     "nome": "Implantação",
+     "valor": "R$ 00.000",
+     "inclui": [
+      "3 meses",
+      "Desenho + rollout",
+      "Indicadores"
+     ]
+    }
+   ],
+   "destaque": 1,
+   "nota": "Valores ilustrativos.",
+   "notas": "O investimento."
+  },
+  {
+   "id": "S17",
+   "layout": "cta-qr",
+   "titulo": "O material completo está no **link**.",
+   "texto": "Aponte a câmera para o QR code.",
+   "url": "https://example.com",
+   "notas": "Obrigado.",
+   "mostrarContato": true,
+   "contato": {
+    "site": "exemplo.com",
+    "whatsapp": "(00) 00000-0000"
+   }
+  }
+ ]
+}
