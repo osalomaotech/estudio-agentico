@@ -55,6 +55,21 @@ O `slides.json` tem `meta` e `slides`. Exemplo completo, com todos os layouts e 
 - `pergunta`: rotulo, texto
 - `cta`: nome, subtitulo, texto
 
+## Documento A4 (`documento.json`)
+Para ebooks, guias, manuais e kits de entrega do CTA.
+```json
+{ "meta": { "brand": "…", "arquivo": "manual", "titulo": "…", "autor": "…" }, "paginas": [ { "tipo": "capa", "titulo": "…" } ] }
+```
+
+**Tipos de página:**
+- `capa`: rotulo, titulo, subtitulo, autor, autorLinha
+- `texto`: rotulo, titulo, paragrafos [], alturaTexto, tituloLista, lista []
+- `passos`: rotulo, titulo, itens [[titulo, descrição]…]
+- `cards`: rotulo, titulo, intro, itens [[titulo, descrição]…], colunas, destaque
+- `tabela`: rotulo, titulo, linhas, larguras, alturaLinha
+- `frase`: rotulo, texto, apoio
+- `cta`: rotulo, titulo, texto, contato (os contatos vêm do brand.json, com rótulos)
+
 ## brand.json
 - **Cores:** obrigatórias `bg`, `text` e `accent`. As outras (`surface`, `surface2`, `border`, `secondary`, `text2`, `muted`, `accentSoft`) são derivadas se faltarem.
 - `fonte`, `rodape`.

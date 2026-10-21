@@ -35,7 +35,7 @@ De 8 a 10 páginas, no formato 4:5 (1080x1350):
 
 ## CTA e entrega
 - **Mensagem padrão:** prepare a resposta para quem comentar ou chamar ("Oi, [nome]! Aqui está…").
-- **Kit de entrega:** se o CTA promete material, gere o material também (guia, modelo editável). Use o motor e os mesmos layouts.
+- **Kit de entrega:** se o CTA promete material, gere o material também (guia, ebook, modelo editável). Para guias e ebooks, use `motor/documento.js` (A4).
 - **Entrega:** a forma mais simples é mandar por mensagem o link de um arquivo compartilhado (Google Drive, OneDrive, Dropbox) com permissão de visualização. Escreva essa instrução para o usuário. Se o perfil tiver `extras.md` com outra forma de entrega, ofereça-a.
 
 **Paradas:** o texto e o carrossel, antes de publicar. A skill nunca publica sozinha.
